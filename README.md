@@ -101,6 +101,7 @@ Dentro de internet existen muchas fuentes de información acerca de esta herrami
 relacionados a la temática tratada en este tutorial
 
 ### [git La Guia Sencilla](http://rogerdudler.github.io/git-guide/index.es.html)
+### [git merge git rebase](https://www.youtube.com/watch?v=dO9BtPDIHJ8)
 
 Herramientas Gráficas para manejar git
 
