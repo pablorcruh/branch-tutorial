@@ -65,23 +65,28 @@ ambientes donde sea requerida. Para ello es muy importante cambiar hacia nuestra
     git pull
 ```
 
-Una vez que aseguramos que todo los cambios se encuentran en nuestra rama master local podemos traer los cambios desde nuestra rama *new-feature*.
-
-Para ello ejecutamos el siguiente comando:
-
-```
-    git merge new-feature
-```
-
 ## Git Merge vs Git Rebase
 
 Ambas opciones permiten integrar el codigo dentro de la rama master, *git merge* preserva la información de la rama, mientras *git rebase* no lo hace
 
 El uso de *git merge* es el enfoque mas comun y sencillo para integrar cambios dentro de una rama, al hacer un merge el commit contiene toda la información
-de los commit previos sobre los que se basa contaminando el historial de la rama
+de los commit previos sobre los que se basa, de esta manera se esta contaminando el historial de la rama
+
+```
+    git checkout master
+    git merge feature-branch
+
+```
 
 Con un *git rebase* es posible reescribir la historia del commit de una manera limpia y lineal. Al hacer un rebase se toman todos los commits de una rama y 
 se los coloca dentro de la rama base normalmente master.
+
+```
+    git checkout my-feature-branch
+    git rebase master
+    git checkout master
+    git merge branch
+```
 
 
 ## Conclusiones
