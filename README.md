@@ -88,6 +88,14 @@ se los coloca dentro de la rama base, normalmente master.
     git merge branch
 ```
 
+Existe una herramienta nativa de git para lidiar con las diferencias entre 
+los archivos de una manera más amigable usando el comando 
+```
+    git mergetool
+```
+Esta herramienta nos permite monitorear los cambios realizados localmente, el contenido
+que se encuentra en nuestro remoto y la manera en que van quedando nuestros cambios
+en una sola vista. Bastante útil para grupos de trabajo numerosos.
 
 ## Conclusiones
 
