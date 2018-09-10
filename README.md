@@ -3,9 +3,8 @@
 ## Objetivo
 
 Este tutorial tiene como objetivo listar aquellos comandos usados para trabajar con ramas
-dentro de un flujo de trabajo, se debe desarrollar funcionalidades fuera de la rama master
-y una vez que la funcionalidad ha sido terminada y probada se procede a integrar aquellos cambios
-dentro de las ramas dentro de master
+, se debe desarrollar funcionalidades fuera de la rama master y una vez que la funcionalidad 
+ha sido terminada y probada se procede a integrar aquellos cambios dentro de la rama master
 
 Es posible listar las ramas que existen dentro del proyecto:
 
@@ -17,3 +16,9 @@ Es posible listar las ramas que existen dentro del proyecto:
 
 Siempre se identifica la rama activa en la que nos encontramos trabajando por medio de un asterico ubicado
 en la parte izquierda del nombre de la rama
+
+Para crear una rama se utiliza el comando:
+
+```
+    git branch *nombre-rama*
+```
