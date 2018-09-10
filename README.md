@@ -57,6 +57,22 @@ En caso de estar sobre la rama *new-feature* y debemos pasar hacia la rama *mast
     git checkout master
 ```
 
+Una vez que nuestra funcionalidad ha sido terminada y probada esta debe ser incluida dentro de la rama master para poder pasarla a los diferentes
+ambientes donde sea requerida. Para ello es muy importante cambiar hacia nuestra rama master local y traer todos los cambios.
+
+```
+    git checkout master
+    git pull
+```
+
+Una vez que aseguramos que todo los cambios se encuentran en nuestra rama master local podemos traer los cambios desde nuestra rama *new-feature*.
+
+Para ello ejecutamos el siguiente comando:
+
+```
+    git merge new-feature
+```
+
 ## Conclusiones
 
 El uso de la herramienta git permite implementar varios flujos de trabajo de mediana y gran complejidad dentro del proceso de desarrollo de software
