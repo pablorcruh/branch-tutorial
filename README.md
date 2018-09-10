@@ -17,8 +17,8 @@ Es posible listar las ramas que existen dentro del proyecto:
 Siempre se identifica la rama activa en la que nos encontramos trabajando por medio de un asterico ubicado
 en la parte izquierda del nombre de la rama
 
-Para crear una rama se utiliza el comando:
+Para crear una rama se utiliza el comando: *git branch* nombre-rama
 
 ```
-    git branch *nombre-rama*
+    git branch new-feature
 ```
