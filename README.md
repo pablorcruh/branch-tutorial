@@ -7,4 +7,8 @@ dentro de un flujo de trabajo, se debe desarrollar funcionalidades fuera de la r
 y una vez que la funcionalidad ha sido terminada y probada se procede a integrar aquellos cambios
 dentro de las ramas dentro de master
 
+Es posible listar las ramas que existen dentro del proyecto:
 
+```
+    git branch -a
+```
