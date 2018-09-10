@@ -56,3 +56,12 @@ En caso de estar sobre la rama *new-feature* y debemos pasar hacia la rama *mast
 ```
     git checkout master
 ```
+
+## Recursos Adicionales
+
+Dentro de la red existen muchas fuentes de informacion acerca de esta herramienta tan util, se han encontrado recursos que son sencillos y putuales 
+relacionados a la tematica tratada en este tutorial
+
+### [GIT La Guia Sencilla](http://rogerdudler.github.io/git-guide/index.es.html)
+
+
