@@ -16,7 +16,7 @@ Es posible listar las ramas que existen dentro del proyecto:
       feature-branch-a
 ```
 
-Siempre se identifica la rama activa en la que nos encontramos trabajando por medio de un asterico ubicado
+Siempre se identifica la rama activa en la que nos encontramos trabajando por medio de un asterisco ubicado
 en la parte izquierda del nombre de la rama
 
 Para crear una rama se utiliza el comando: **git branch** nombre-rama
@@ -25,7 +25,7 @@ Para crear una rama se utiliza el comando: **git branch** nombre-rama
     git branch new-feature
 ```
 
-Este comando crea una rama de manera local sobre la cual podemos desarrollar sin introducir errores o inconsistencias
+Este comando crea una rama de manera local sobre la que podemos desarrollar sin introducir errores o inconsistencias
 dentro de la rama master. La rama master en muchos casos es la rama que contiene todas las funcionalidades que deben ir
 a productivo.
 
@@ -48,7 +48,7 @@ Podemos visualizar a detalle los cambios dentro de cada archivo usando el comand
 ```
 
 Podemos cambiar desde una rama hacia otra utilizado el comando **git checkout** nombreRama, tener en cuenta que debemos hacer un commit o un
-stash de nuestros cambios segun sea el caso para evitar generar aconflictos al trabajar dentro de otra funcionalidad que posiblemente modifique
+stash de nuestros cambios según sea el caso para evitar generar aconflictos al trabajar dentro de otra funcionalidad que posiblemente modifique
 los mismos archivos de otra funcionalidad en la que trabajamos con anterioridad
 
 En caso de estar sobre la rama *new-feature* y debemos pasar hacia la rama *master*
@@ -57,11 +57,22 @@ En caso de estar sobre la rama *new-feature* y debemos pasar hacia la rama *mast
     git checkout master
 ```
 
+## Conclusiones
+
+El uso de la herramienta git permite implementar varios flujos de trabajo de mediana y gran complejidad dentro del proceso de desarrollo de software
+y se han convertido en una práctica habitual. Es parte de una cultura de trabajo que libera el potencial de un equipo de trabajo haciendo que sean más 
+ágiles y respondan de mejor manera los problemas y errores dentro de los diferentes ambientes de despliegue de una aplicación.
+ 
 ## Recursos Adicionales
 
-Dentro internet existen muchas fuentes de informacion acerca de esta herramienta tan util, se han encontrado recursos que son sencillos y puntuales 
-relacionados a la tematica tratada en este tutorial
+Dentro internet existen muchas fuentes de informacion acerca de esta herramienta tan útil, se han encontrado recursos que son sencillos y puntuales 
+relacionados a la temática tratada en este tutorial
 
 ### [git La Guia Sencilla](http://rogerdudler.github.io/git-guide/index.es.html)
 
+Herramientas Gráficas para manejar git
+
+1. [GitKracken](https://www.gitkraken.com)
+2. [SourceTree](https://www.sourcetreeapp.com)
+3. [SmartGit](http://www.syntevo.com/smartgit)
 
