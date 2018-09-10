@@ -11,4 +11,9 @@ Es posible listar las ramas que existen dentro del proyecto:
 
 ```
     git branch -a
+    *master
+     feature-branch-a
 ```
+
+Siempre se identifica la rama activa en la que nos encontramos trabajando por medio de un asterico ubicado
+en la parte izquierda del nombre de la rama
