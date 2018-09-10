@@ -67,9 +67,9 @@ ambientes donde sea requerida. Para ello es muy importante cambiar hacia nuestra
 
 ## Git Merge vs Git Rebase
 
-Ambas opciones permiten integrar el codigo dentro de la rama master, *git merge* preserva la información de la rama, mientras *git rebase* no lo hace
+Ambas opciones permiten integrar el código dentro de la rama master, *git merge* preserva el historial de la rama, mientras *git rebase* no lo hace
 
-El uso de *git merge* es el enfoque mas comun y sencillo para integrar cambios dentro de una rama, al hacer un merge el commit contiene toda la información
+El uso de *git merge* es el enfoque mas común y sencillo para integrar cambios dentro de una rama, al hacer un merge el commit contiene toda la información
 de los commit previos sobre los que se basa, de esta manera se esta contaminando el historial de la rama
 
 ```
@@ -79,7 +79,7 @@ de los commit previos sobre los que se basa, de esta manera se esta contaminando
 ```
 
 Con un *git rebase* es posible reescribir la historia del commit de una manera limpia y lineal. Al hacer un rebase se toman todos los commits de una rama y 
-se los coloca dentro de la rama base normalmente master.
+se los coloca dentro de la rama base, normalmente master.
 
 ```
     git checkout my-feature-branch
@@ -100,8 +100,8 @@ y se han convertido en una práctica habitual. Es parte de una cultura de trabaj
 Dentro de internet existen muchas fuentes de información acerca de esta herramienta tan útil, se han encontrado recursos que son sencillos y puntuales 
 relacionados a la temática tratada en este tutorial
 
-### [git La Guia Sencilla](http://rogerdudler.github.io/git-guide/index.es.html)
-### [git merge git rebase](https://www.youtube.com/watch?v=dO9BtPDIHJ8)
+1. [git La Guia Sencilla](http://rogerdudler.github.io/git-guide/index.es.html)
+2. [git merge git rebase](https://www.youtube.com/watch?v=dO9BtPDIHJ8)
 
 Herramientas Gráficas para manejar git
 
